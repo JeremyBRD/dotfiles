@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+  editor = code --wait
 
 [alias]
   co = checkout
@@ -54,3 +54,9 @@
 	required = true
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
+
+[pull]
+  rebase = false
+
+[init]
+  defaultBranch = master
