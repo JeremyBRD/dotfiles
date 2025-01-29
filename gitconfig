@@ -48,7 +48,7 @@
   mergeoptions = --no-edit
 [user]
 	email = jeremybarbedienne@gmail.com
-	name = jeremybarbedienne
+	name = Jeremy Barbedienne
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
